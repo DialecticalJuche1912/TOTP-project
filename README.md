@@ -4,7 +4,7 @@ and data safely, which helps to protect user accounts from unauthorized access.
 This is a simple Time-Based One-Time Password (TOTP) generator implemented in C++. 
 It generates a 6-digit TOTP token based on a given Base32-encoded shared secret. 
 The TOTP algorithm is built upon the HMAC-based One-Time Password (HOTP) algorithm, 
-and this implementation follows the specifications of RFC 6238 (TOTP) and RFC 4226 (HOTP).
+and this implementation follows the specifications of [RFC 6238 (TOTP)](https://www.rfc-editor.org/rfc/rfc6238) and [RFC 4226 (HOTP)](https://www.ietf.org/rfc/rfc4226.txt).
 
 ## Installation and useage:
 1. C Compiler: Choose a C compiler such as GCC or Clang to compile the program.
@@ -30,7 +30,13 @@ The following libraries are used in this program:
 3. Vector, The C++ Standard Library's vector container for dynamic arrays.
 
 
-### Acknowledgement:
+## Acknowledgement:
+
 This app is inspired by the Duo 2-factor authentification application used by The University of Waterloo 
 
 Parts of the idea of this app have referenced Chapter 9, RSA of the Math 135 Textbook of The University of Waterloo 
+### Papers Referenced:
+[RFC 6238 (TOTP)](https://www.rfc-editor.org/rfc/rfc6238)
+
+[RFC 4226 (HOTP)](https://www.ietf.org/rfc/rfc4226.txt)
+
