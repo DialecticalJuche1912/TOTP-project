@@ -11,7 +11,7 @@ and this implementation follows the specifications of [RFC 6238 (TOTP)](https://
 2. Text Editor: Use a text editor such as Visual Studio Code or Sublime Text to write and edit the code.
 3. liboath: Install the liboath library for TOTP support. Find installation instructions for your platform on the library's website.
 4. Compile the program with your chosen C compiler and run the compiled program.
-Depending on your compiler, this could look like `g++ -o totp totp.cpp -loath` and then run the code with `./totp`
+Depending on your compiler, this could look like `g++ -o totp totp.cpp -loath` and then run the code with `./totp` on the terminal
 5. When prompted, enter your Base32-encoded shared secret.
 6. The program will generate a TOTP token based on the provided shared secret and display it on the screen.
 
