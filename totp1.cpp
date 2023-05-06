@@ -65,7 +65,7 @@ public:
 
     return totp;
 }
-};  // creating a temporary char variable to hold the output, and then convert it back to an unsigned int
+};  // This creates a temporary char variable to hold the output, and then convert it back to an unsigned int
 
 int main() {
     std::string base32_secret;
