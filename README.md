@@ -16,6 +16,7 @@ Depending on your compiler, this could look like `g++ -o totp totp.cpp -loath` a
 6. The program will generate a TOTP token based on the provided shared secret and display it on the screen.
 
 You can Open and view the project using the .zip file provided or at my [Github Repo](https://github.com/DialecticalJuche1912/TOTP-project)
+Here's a [video demonstration](https://vimeo.com/846209083211) of this app.
 
 ### Functionalities
 The TOTP generator program provides the following functionalities:
